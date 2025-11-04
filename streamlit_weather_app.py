@@ -18,7 +18,7 @@ with st.sidebar:
     st.caption("무료 OpenWeatherMap API 키 필요합니다 👉 https://openweathermap.org/api")
 
 if not api_key:
-    st.warning("55ef195c90b3f878d44217319b98cded")
+    st.warning("API 키를 입력하세요.")
     st.stop()
 
 # --- Geocoding ---
